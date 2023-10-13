@@ -20,13 +20,13 @@ I used C# and the razorpages library to build the site. I used SQL to store the 
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [W3Schools](https://www.w3schools.com/cs/index.php)
+- [Microsoft Learn](https://learn.microsoft.com/en-us/azure/azure-sql/database/connect-query-dotnet-core?view=azuresql)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- I'd like to add more models and build out the dadabase more.
+- Add OAuth to the site.
+- Build a displayed output signupsheet
