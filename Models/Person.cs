@@ -26,12 +26,15 @@ namespace C_Website.Models
         [Display(Name = "Phone")]
         public string? Phone { get; set; }
        
-        public Person(string firstName, string lastName, string numberC, string phone)
+        public Person()
+        {
+        }
+  /*      public Person(string firstName, string lastName, string numberC, string phone)
         {
             FirstName = firstName;
             LastName = lastName;
             this.numberC = numberC;
             Phone = phone;
-        }
+        }*/
     }
 }
