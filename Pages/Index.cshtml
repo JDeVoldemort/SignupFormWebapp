@@ -1,10 +1,38 @@
 ﻿@page
 @model IndexModel
+@*@using C_Website.Models*@
+@*@using C_Website.Models*@
+
 @{
     ViewData["Title"] = "Home page";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>We are providing this site as an interface with future planned ARCGIS features.</a>.</p>
+    <p>Signup page for building cleaning. Please fill out the feilds below.</p>
+@*    <form>
+        <input type="text" placeholder="First Name" />
+<input type="text" placeholder="Last Name" />
+<input type="text" placeholder="Phone Number" />
+<input type="number" placeholder="Number of People" />
+<input type="week"/>
+<input type="button" value="Submit" />
+<input type="button" value="Reset" />
+<input type="hidden" value="submit"/>
+
+        
+    </form>*@
+    <section>
+        <h2>Upcoming Cleanings</h2>
+        <ul>
+  @*          @foreach (var person in Person)
+            {
+                <li>
+                    <p> Name: @person.FirstName @person.LastName Phone: @person.numberC</p>
+                    <p "@person.Id">@person.numberC</p>
+
+                </li>
+            }*@
+        </ul>
+    </section>
 </div>
