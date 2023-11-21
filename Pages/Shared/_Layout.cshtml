@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">C_Website</a>
+                <a class="navbar-brand" asp-area="" asp-page="/Index">C_WebApp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,15 +22,18 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
-                        <li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="Persons/Index">People</a>
+                        </li>
+                    @*    <li>
                             <a class="nav-link text-dark" asp-area="" asp-page="Persons/Create">Create</a>
-                                </li>
-                        <li>
+                                </li>*@
+@*                        <li>
                             <a class="nav-link text-dark" asp-area="" asp-page="Persons/Edit">Edit</a></li>
 <li>
 <a class="nav-link text-dark" asp-area="" asp-page="Persons/Delete">Delete</a></li>
 
-                        <li class="nav-item">
+                        <li class="nav-item">*@
 
                             <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
                         </li>
@@ -47,7 +50,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2023 - C_Website - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2023 - C_WebApp - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
